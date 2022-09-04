@@ -154,7 +154,7 @@ class HBNBCommand(cmd.Cmd):
             print(l)
 
     def do_count(self, line):
-[O        """Counts the instances of a class.
+        """Counts the instances of a class.
         """
         words = line.split(' ')
         if not words[0]:
